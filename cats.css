@@ -1,0 +1,62 @@
+.cats {
+    background-color: #EB9090;
+}
+
+.cats-link {
+    background-color: #B4CC69;
+    color:black
+}
+
+.cats-title {
+    background-color: #E6FFAA;
+    padding-top: 12px;
+
+    h1 {
+        background-color: white;
+        text-align: center;
+        font-size: 20px;
+        margin: auto;
+    }
+}
+
+.Maine-Coon {
+    background-color: #E6FFAA;
+}
+
+.Maine-Coon p {
+    background-color: #FEB8B8;
+    padding: 15px 30px;
+}
+
+.Maine-Coon-info {
+    display: flex;
+    justify-content: space-between;
+
+    h2 {
+        background-color: #FEB8B8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 42px 12px;
+        text-align: center;
+    }
+}
+
+.british-shorthair-paddle-ear {
+    background-color: #D39A9A;
+
+    p {
+        background-color: #B4CC69;
+        padding: 20px;
+        text-align: center;
+    }
+}
+
+.british-shorthair-paddle-ear-info h2{
+    background-color: #B4CC69;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-bottom: 8px;
+}

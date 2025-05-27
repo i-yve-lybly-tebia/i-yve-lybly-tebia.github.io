@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    display: flex;
+    gap: 25px;
+    padding: 12px;
+}
+
+.column {
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.dogs {
+    background-color: black;
+    color: aliceblue;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+nav a {
+    background-color: azure;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px;
+    margin-left:3px ;
+}
+.greyhound {
+    background-color: #A2B9D4;
+}
+
+.greyhound-info p {
+    background-color: #4F4CA1;
+    color: snow;
+    padding: 20px 10px ;
+}
+
+.greyhound-info h2 {
+    background-color: #A793FF;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.greyhound-info, 
+.samoyeds-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 16px;
+}
+
+.samoyeds {
+    background-color: #757797;
+
+}
+
+.samoyeds-info h2 {
+    background-color:white;
+    text-align: center;
+    padding: 0 4px ;
+}
+
+.samoyeds-info p {
+    background-color: #99CFDB;
+    padding: 20px 10px;
+}
+
+.dogs-title {
+    background-color: #A2B9D4;
+    padding-top: 12px;
+    
+    h1 {
+        text-align: center;
+        background-color: #DEFFFD;
+        font-size: 20px;
+        margin: auto;
+    }
+}
